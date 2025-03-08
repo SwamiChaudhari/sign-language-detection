@@ -1,0 +1,86 @@
+/* General Page Styling */
+.service-container {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+ align-items: center;
+ position: relative;
+}
+
+.speech-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Horizontal Line */
+.divider {
+  width: 60%;
+  height: 3px;
+  background-color: #ebd125;
+  border: none;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+.service-wrapper{
+  width: 700px;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.video-toggle::before{
+  content: "";
+  width: 200px;
+  height: 3px;
+  color: wheat;
+  position: absolute;
+  left: 10px;
+
+}
+/* Heading */
+.service-container h1 {
+  color: #6d0fdf;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.service-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #003d82;
+  transform: scale(0.98);
+}
+
+/* Transcript Text */
+.service-container p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  font-weight: bold;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

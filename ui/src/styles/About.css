@@ -1,0 +1,26 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.about-heading{
+font-size: 50px;
+color: rgb(13, 64, 109);
+text-align: center;
+}
+
+.about-para{
+    font-size: 20px;
+    width: 1000px;display: flex;
+    align-items: center;
+}
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
